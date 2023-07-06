@@ -1,6 +1,5 @@
 ---
-layout: content
-title: お知らせ
+layout: default
 ---
 
 MPS研究会のホームページが新しくなりました！
