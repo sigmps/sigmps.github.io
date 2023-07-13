@@ -4,14 +4,6 @@ layout: default
 
 # 研究会への登録と参加
 
-<ul>
-{% for member in site.data.members %}
-  <li>
-    {{member.name}}: {{member.affiliation}}
-  </li>
-{% endfor %}
-</ul>
-
 ## 研究会への登録
 
 研究発表会に常時参加する場合や，研究会の発行物（研究報告，トランザクション等）を通年で入手希望される場合は

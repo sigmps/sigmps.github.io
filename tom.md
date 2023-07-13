@@ -1,5 +1,5 @@
 ---
-layout: tom_default
+layout: default
 ---
 ## 論文誌トランザクション 数理モデル化と応用
 
