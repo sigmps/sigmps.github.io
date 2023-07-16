@@ -8,3 +8,5 @@ collections:
     output: true
   news:
     output: true
+  tom_docs:
+    output: true
