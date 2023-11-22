@@ -4,5 +4,5 @@ Gemfile.lock
 *.gem
 .jekyll-cache
 .jekyll-cache
-
-.DS_Store # Mac OSX 対策
+.DS_Store* 
+.vscode
