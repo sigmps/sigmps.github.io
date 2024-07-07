@@ -1,0 +1,35 @@
+toc:
+  - label: 数理モデリングの基礎全般
+    fields:
+      - label: 新たな数理モデルの提案
+      - label: 既存数理モデルの改良
+      - label: 数理モデルの活用方法
+  - label: 数理モデルの実応用事例
+    fields:
+      - label: 最適化
+      - label: 機械学習
+      - label: 回路・VLSI
+      - label: スケジューリング
+      - label: 流通・トラフィック
+      - label: 通信・制御
+      - label: 並列・分散処理
+      - label: 工学・物理解析
+      - label: ゲノム解析
+      - label: ニューラルネット(深層学習)
+      - label: 進化的計算
+      - label: 人工生命
+      - label: ソフトウェア工学
+      - label: ゲーム工学
+      - label: プログラム理論
+      - label: 経営工学
+      - label: 環境工学
+      - label: 画像・パターン認識
+      - label: マルチメディア
+      - label: マルチエージェント
+      - label: データマイニング
+      - label: バイオインフォマティクス・数理生物学
+      - label: 金融工学・経済物理
+      - label: ベイジアン・ネットワーク
+  - label: システム開発
+    fields:
+      - label: 数理モデルを用いたシステム開発
