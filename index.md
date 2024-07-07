@@ -40,7 +40,7 @@ title: 数理モデル化と問題解決(MPS)研究会へようこそ
   {% endfor %}
 </ul>
 
-## 旧Webページへのアクセス
+### 旧Webページへのアクセス
 
 旧 Web ページへのアクセスは [こちら](http://daemon.inf.uec.ac.jp/MPSPortal/) へ
 
