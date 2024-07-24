@@ -15,7 +15,7 @@ title: 研究会への登録と参加
 なお，登録費は年度ごとに異なりますので，以下のページよりご確認ください
 [https://www.ipsj.or.jp/kenkyukai/hakko.html](https://www.ipsj.or.jp/kenkyukai/hakko.html)
 
-登録がお済みの方は，当該研究会の発行物のバックナンバーを [電子図書館](https://www.ipsj.or.jp/e-library/digital_library.html)を利用して閲覧することがでできます。
+登録がお済みの方は，当該研究会の発行物のバックナンバーを [電子図書館](https://www.ipsj.or.jp/e-library/digital_library.html)を利用して閲覧することができます。
 
 ## 研究会への参加方法
 
