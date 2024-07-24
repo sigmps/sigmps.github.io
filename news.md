@@ -9,6 +9,10 @@ permalink: /news
 
 MPS研究会運営委員会メンバーは [こちら](/committee_members#mps-運営委員会メンバー)をご覧ください．
 
+### MPS 研究会ベストプレゼンテーション賞
+
+MPS 研究会ベストプレゼンテーション賞は，[こちら](https://www.ipsj.or.jp/award/mps-award1.html) を御覧ください．
+
 ### ニュース
 
 news コレクションの中身を展開

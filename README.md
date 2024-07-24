@@ -13,12 +13,14 @@ bundle exec jekyll serve
 
 トップページは下記で構成している（暫定版）
 
-- `about.md`
-- `news.md`
-- `registration.md`
-- `schedule.md`
-- `schedule-old.md`
-- `tom.md`
+- `committee_members.md`: MPS運営委員会，TOM編集委員会 のメンバー表示
+- `contact.md`: 研究会への連絡先
+- `news.md`: 新しいお知らせ
+- `index.md`: トップページ
+- `registration.md`: 研究会への登録方法
+- `schedule-old.md`: 過去のMPS研究会の開催履歴
+- `schedule.md`: MPS研究会のこれからの予定
+- `tom.md`: TOM編集委員会から
 
 データを追加するには， `_config.yml` のコレクションを追加して，
 サーバーを立ち上げ直すことで対応可能．コレクションは現状下記で構成中
@@ -28,4 +30,4 @@ bundle exec jekyll serve
 - `_data` MPSメンバーとか，ナビゲーション情報，適応分野表などを突っ込んでいる
 - `_mps_docs` これからの CFP 情報などを突っ込んでいる
 - `_mps_docs_old` 過去の CFP 情報など
-- `_tom_docs` TOM誌の情報源などをを突っ込む予定
+- `_tom_docs` TOM誌の情報源などをを突っ込む

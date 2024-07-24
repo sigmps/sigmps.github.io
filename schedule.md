@@ -5,8 +5,10 @@ title: 研究会のスケジュール
 
 ## これからの研究会
 
+<!-- 
 研究会の案内はコレクションとして _mps_docs に入れる．
 で，そこで mpsXXX.md を編集すると下に反映されるハズ．
+-->
 
 <ul>
 {% for item in site.mps_docs %}
