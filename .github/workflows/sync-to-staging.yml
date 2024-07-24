@@ -1,0 +1,33 @@
+name: Sync-to-Staging
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout dev Repository
+        uses: actions/checkout@v3
+        with:
+          ref: production
+
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+      - name: Sync to staging
+        run: |
+          git config --global user.name "SIGMPS Admin"
+          git config --global user.email "sigmps-admin@ipsj.or.jp"
+          git remote add staging git@github.com:sigmps/staging.sigmps.github.io.git
+          git fetch staging
+          git checkout -b master --track staging/master
+          git merge --no-ff production -m "Sync page contents from a develop repo"
+          git push staging master
