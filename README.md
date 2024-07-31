@@ -30,4 +30,5 @@ bundle exec jekyll serve
 - `_data` MPSメンバーとか，ナビゲーション情報，適応分野表などを突っ込んでいる
 - `_mps_docs` これからの CFP 情報などを突っ込んでいる
 - `_mps_docs_old` 過去の CFP 情報など
+- `_news` お知らせなどを blog 形式でいれる
 - `_tom_docs` TOM誌の情報源などをを突っ込む
