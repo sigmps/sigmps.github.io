@@ -1,22 +1,22 @@
 - tag: about
   label: "MPS研究会へようこそ"
-  url: "/index.html"
+  url: "/index"
 
 - tag: news
   label: "お知らせ"
-  url: "/news.html"
+  url: "/news"
 
 - tag: registration
   label: "研究会への登録方法"
-  url: "/registration.html"
+  url: "/registration"
 
 - tag: tom
   label: "論文誌 数理モデル科と応用(TOM)"
-  url: "/tom.html"
+  url: "/tom"
 
 - tag: schedule
   label: "研究会開催日程"
-  url: "/schedule.html"
+  url: "/schedule"
 
 - tag: ipsj
   label: "情報処理学会ホームページ"

@@ -3,8 +3,6 @@ layout: default
 title: 論文査読の手引き
 permalink: /tom_docs/review_guide
 ---
-## 論文査読の手引き
-
 1. 査読を行うに当たっては，＜[論文査読方針](review_policy)＞と ＜[論文査読プロセス](review_process)＞ を必ずお読み下さい．
 
 2. 査読期間は 4 週間です．いかなる理由があろうとも，査読期間の延長はありません．

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 資料３：査読依頼状（担当編集委員→査読者）
+title: 査読依頼状
 permalink: /tom_docs/review_letter
 ---
 

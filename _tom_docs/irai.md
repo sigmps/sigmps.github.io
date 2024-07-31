@@ -3,8 +3,6 @@ layout: default
 title: 原稿依頼書の例
 permalink: /tom_docs/irai
 ---
-## 原稿依頼書の例
-
 事務局からの原稿依頼書の例です。
 
 > 令和 yy 年 mm 月 dd日
@@ -21,9 +19,9 @@ permalink: /tom_docs/irai
 >
 >                 記
 >
-> ◆提出内容：以下のものを郵送でお送り下さい。
+> ◆提出内容：以下のものを事務局の指示に従ってお送り下さい。
 >
-> 1.最終論文Texデータ（FD or MO or CD-R）
+> 1.最終論文Texデータ
 >※スタイルファイルについては以下をご参照ください。
 > [https://www.ipsj.or.jp/fugafuga.html](https://www.ipsj.or.jp/)
 > ※データ作成に関する注意点です。ご一読ください。

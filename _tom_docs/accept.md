@@ -3,8 +3,6 @@ layout: default
 title: 論文が採録されたら
 permalink: /tom_docs/accept
 ---
-## 論文が採録されたら
-
 採録された論文の掲載号が決定しましたら，
 情報処理学会事務局より [原稿提出依頼](/tom_docs/irai) が，
 著者(連絡先著者)の方に送られますので，

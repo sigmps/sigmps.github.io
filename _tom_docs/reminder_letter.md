@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 投稿〆切確認（担当編集委員→著者）
+title: 投稿〆切確認
 permalink: /tom_docs/reminder_letter
 ---
 ## 資料2：投稿〆切確認（担当編集委員→著者）

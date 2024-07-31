@@ -4,13 +4,11 @@ permalink: /tom_docs/cfp_e
 title: IPSJ TOM Call for Papers
 ---
 
-## IPSJ TOM Call for Papers
-
 - [The Information Processing Society of Japan (IPSJ)](https://www.ipsj.or.jp/)
 - [Transactions on Mathematical Modeling and its Applications (TOM)](http://www.ipsj.or.jp/sig/mps/tom_docs)
 - [IPSJ SIG on Mathematical Modeling and Problem Solving (SIGMPS)](http://www.ipsj.or.jp/sig/mps/)
 
-### Instructions for Submitting an Oral Presentation (with or without an accompanying paper)
+## Instructions for Submitting an Oral Presentation (with or without an accompanying paper)
 
 1. To submit a request for an oral presentation without an accompanying paper, follow the the procedures in the guidelines for meetings of Special Interest Groups (SIGs) of the IPSJ.
 
@@ -33,11 +31,11 @@ title: IPSJ TOM Call for Papers
 4. To submit a manuscript on topics relevant to one of the meetings or symposiums of MPS without an accompanying oral presentation, follow the procedure described in 2(b). Submissions must be clearly marked, "Paper Submission related to Topics in the n-th Meeting (or Symposium)." Although revised manuscripts may be submitted any time, there may be some delays in reviewing a manuscript if it is not submitted to a specific meeting.
 Submission of manuscripts without an accompanying presentation is not handled by the administration office of the IPSJ so that the submission will not be announced in the Journal of the IPSJ and the paper will not be published in the Research Report of the MPS.
 
-### Submission of Oral Presentations and Papers
+## Submission of Oral Presentations and Papers
 
 For all submissions which include a manuscript to be reviewed, send the items listed below by e-mail to trans-mps-editors(at)ipsj.or.jp .(Please substitute "(at)" as proper)
 
-#### 1. Administrative Information
+### 1. Administrative Information
 
 - Author's name (presenter's name):
 - Co-author(s) name(s) (optional) :
@@ -50,11 +48,11 @@ For all submissions which include a manuscript to be reviewed, send the items li
 - Short Abstract (30 words in English or 75 characters in Japanese)
 - Statement of intent to submit
 
-#### 2. Summary of Oral Presentation
+### 2. Summary of Oral Presentation
 
 Camera-ready abstract, maximum 4 pages. This is published in IPSJ technical report.
 
-#### 3. Long manuscript (no page-count limit)
+### 3. Long manuscript (no page-count limit)
 
 This manuscript is for the TOM journal.
 The manuscript must include:
@@ -63,7 +61,7 @@ The manuscript must include:
 - 3 to 5 References in the bibliography
   (i.e., name of published papers + authors)
 
-#### 4. Abstract
+### 4. Abstract
 
 A 100 word English or 300 character Japanese statement describing one of the six features of the submitted manuscript listed below. Briefly explain the unique features and/or effectiveness of methods presented.
 
@@ -78,7 +76,7 @@ For further information, contact TOM editorial board trans-mps-editors(at)ipsj.o
 
 Only items listed under 1. and 2. are required for submissions for an oral presentation only (no accompanying paper).
 
-### Format of Manuscripts
+## Format of Manuscripts
 
 In the interest of shortening the turn around time and reducing costs, manuscripts submitted to TOM must conform to the guidelines listed below.
 
@@ -86,7 +84,7 @@ In the interest of shortening the turn around time and reducing costs, manuscrip
 
 - The form of the final version of manuscripts accepted for publication must closely resemble the camera-ready form created by LaTeX. Authors are responsible for preparing the final version; Typesetting facilities are not available to TOM.
 
-### Notification of Acceptance
+## Notification of Acceptance
 
 Notification of acceptance/rejection of manuscripts is given to authors just prior to the conclusion of a meeting, after all presentations have been completed. Authors are expected to attend the meeting of the panel of editors. In the event that authors cannot attend, an e-mail notification will be sent to the author from the editor-in-chief. It is strongly recommended that prior, written notice be sent to at least one of the editors when an author expects to be absent from the meeting with editors.
 
