@@ -31,3 +31,22 @@ bundle exec jekyll serve
 - `_mps_docs` これからの CFP 情報などを突っ込んでいる
 - `_mps_docs_old` 過去の CFP 情報など
 - `_tom_docs` TOM誌の情報源などをを突っ込む
+
+## 更新のしかた
+
+このリポジトリ
+[https://github.com/sigmps/sigmps.github.io.dev]
+は本サイトを更新する前のコンテンツ検証用です。
+
+内容更新等はWebサイトと直接紐づく本番リポジトリ
+[https://github.com/sigmps/sigmps.github.io]
+を直接編集するのではなく、この検証用リポジトリ上で行ってください。  
+(間違った内容や、更新途中の情報がWebサイトに掲載されてしまうことを防ぐためです。)
+
+このリポジトリのproductionブランチに変更をpushすると、その更新内容が
+GitHub ActionのWorkflowによって、本番リポジトリのmasterに反映され、Webサイトが自動で更新されます。
+
+緊急の場合を除き、productionブランチの変更はPull requestによって、
+Web担当者やそれに準ずるメンバのチェックを受けてから反映してください。
+
+
