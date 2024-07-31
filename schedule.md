@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 研究会のスケジュール
+permalink: /schedule
 ---
 
 ## これからの研究会

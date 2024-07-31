@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 送付先確認状（担当編集委員→著者）
+title: 送付先確認状
 permalink: /tom_docs/confirmation_letter
 ---
 ## 資料１：送付先確認状（担当編集委員→著者）

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 研究会への登録と参加
+permalink: /registration
 ---
 
 ## 研究会への登録
