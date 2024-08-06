@@ -30,7 +30,7 @@ jobs:
       - name: fetch production
         run: |
           git fetch production
-          git checkout -b master --track production/master
+          git checkout -b production --track production/master
       - name: merge
         run: |
           git merge --allow-unrelated-histories --no-ff production -m "Sync page contents from a develop repo"
