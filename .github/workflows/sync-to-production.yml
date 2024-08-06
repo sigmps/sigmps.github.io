@@ -1,0 +1,39 @@
+name: Deploy-on-Production
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout dev Repository
+        uses: actions/checkout@v3
+        with:
+          ref: production
+
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+      - name: Sync to production
+        run: |
+          git config --global user.name "SIGMPS Admin"
+          git config --global user.email "sigmps-admin@ipsj.or.jp"
+          git remote add production git@github.com:sigmps/sigmps.github.io.git
+      - name: fetch production
+        run: |
+          git fetch production
+          git checkout -b master --track production/master
+      - name: merge
+        run: |
+          git merge --allow-unrelated-histories --no-ff production -m "Sync page contents from a develop repo"
+      - name: push
+        run: |
+          GIT_TRACE=1 GIT_CURL_VERBOSE=1 git push -f production master
