@@ -30,10 +30,10 @@ jobs:
       - name: fetch production
         run: |
           git fetch production
-          git checkout -b master --track production/master
+          git checkout production/master
       - name: merge
         run: |
-          git merge --allow-unrelated-histories --no-ff production -m "Sync page contents from a develop repo"
+          git merge --allow-unrelated-histories --squash production -m "Sync page contents from a develop repo"
       - name: push
         run: |
-          GIT_TRACE=1 GIT_CURL_VERBOSE=1 git push -f production master
+          GIT_TRACE=1 GIT_CURL_VERBOSE=1 git push -f production production:master
