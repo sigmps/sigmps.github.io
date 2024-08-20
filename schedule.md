@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: 研究会開催日程
+tagline: IPSJ MPS meetings
 ref: mps_schedule
 permalink: /schedule
 ---

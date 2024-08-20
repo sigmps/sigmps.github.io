@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: 過去の研究会
+tagline: Past IPSJ MPS meetings
 ref: schedule-old
 ---
 

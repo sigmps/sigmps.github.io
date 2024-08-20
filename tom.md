@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: 論文誌「数理モデル化と応用」
+tagline: Transactions on Mathematical Modeling and its Applications (TOM)
 ref: tom
 permalink: /tom
 ---
