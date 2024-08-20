@@ -1,8 +1,11 @@
 ---
-layout: default
-title: 数理モデル化と問題解決(MPS)研究会へようこそ
+layout: home
+title: 数理モデル化と問題解決(MPS)研究会
+ref: index
 permalink: /index
 ---
+## 情報処理学会 (IPSJ) 数理モデル化と問題解決研究会へようこそ
+
 数理モデル化と問題解決(SIG Mathematical Modeling and Problem Solving: MPS) 研究会は， 問題の数理的把握とモデル化及び その有効な解決手法の開発に関する研究交流の場として，
 1995年に誕生しました．以来， コンピュータを用いた問題解決が求められる理工系・人文社会系の諸分野全体を対象とし， これからも活発な学際的研究会として場を提供していく所存です．
 

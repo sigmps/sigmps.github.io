@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 研究会への登録と参加
 permalink: /registration
 ---
