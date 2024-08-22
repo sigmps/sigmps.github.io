@@ -1,4 +1,5 @@
 title: 情報処理学会 数理モデル化と問題解決(MPS)研究会
+short_title: MPS研究会
 description: "IPSJ SIG-MPS: Mathematical Modeling and Problem Solving"
 show_downloads: true
 google_analytics:
@@ -19,3 +20,6 @@ plugins:
 # Option for last modified
 last-modified-at:
   date-format: "%d-%b-%Y"
+
+#
+header_page_refs: ["mps_schedule", "tom", "contact"]

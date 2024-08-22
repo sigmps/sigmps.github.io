@@ -1,9 +1,13 @@
 ---
-layout: default
-title: 論文誌「数理モデル化と応用」（TOM）について
+layout: page
+title: 論文誌「数理モデル化と応用」
+tagline: Transactions on Mathematical Modeling and its Applications (TOM)
+ref: tom
 permalink: /tom
 ---
-このページは，「情報処理学会論文誌:数理モデル化と応用」(Transactions on Mathematical Modeling and its Applications: TOM)誌への投稿に関して， 投稿希望者に情報を提供することを目的としています．
+このページは，「情報処理学会論文誌:数理モデル化と応用」(Transactions on Mathematical Modeling and its Applications: TOM)誌に関するページです．
+投稿希望者に情報を提供することを目的としています．
+
 TOM誌は，MPS研究会が年4回刊行する研究会連動投稿型の論文誌トランザクションです．
 [MPS研究会](/)の開催案内等については，研究会のホームページをご参照下さい．
 掲載内容(規定，様式等)は変更されることがありますので定期的に内容をチェックしてください．
@@ -14,7 +18,7 @@ CFP の英語バージョンになります．
 
 - [IPSJ TOM Call for Papers (English Version)](/tom_docs/cfp_e)
 
-## 「情報処理学会論文誌:数理モデル化と応用」(TOM)のご案内
+## 「情報処理学会論文誌:数理モデル化と応用」(TOM)のご案内<>
 
 TOM 誌について，どのような論文をターゲットにしているか，あるいはどのような論文が刊行されているかを知りたい方は，
 下記の概要と既刊されている目次やアブストラクトをご覧いただければと思います．

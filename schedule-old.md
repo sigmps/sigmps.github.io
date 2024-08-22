@@ -1,6 +1,8 @@
 ---
-layout: default
-title: 過去の研究会の開催
+layout: page
+title: 過去の研究会
+tagline: Past IPSJ MPS meetings
+ref: schedule-old
 ---
 
 こちらは過去の研究会の CFP 開催案内のページになります．

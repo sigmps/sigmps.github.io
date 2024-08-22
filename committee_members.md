@@ -1,7 +1,8 @@
 ---
 title: MPS 運営委員会/TOM編集委員会メンバー
-layout: default
+layout: page
 permalink: /committee_members
+tagline: IPSJ SIG MPS/TOM committee members
 ---
 
 ## MPS 運営委員会/TOM編集委員会メンバー

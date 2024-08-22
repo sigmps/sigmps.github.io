@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: 研究会への登録と参加
+tagline: How to join IPSJ SIGMPS
 permalink: /registration
 ---
 
