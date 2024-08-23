@@ -26,14 +26,14 @@ jobs:
         run: |
           git config --global user.name "SIGMPS Admin"
           git config --global user.email "sigmps-admin@ipsj.or.jp"
-          git remote add production git@github.com:sigmps/sigmps.github.io.git
+          git remote add production_repo git@github.com:sigmps/sigmps.github.io.git
       - name: fetch production
         run: |
-          git fetch production
-          git checkout production/master
-      - name: merge
+          git fetch production_repo
+          git checkout production
+      - name: reset
         run: |
-          git merge --allow-unrelated-histories --squash production -m "Sync page contents from a develop repo"
+          git reset --hard production
       - name: push
         run: |
-          GIT_TRACE=1 GIT_CURL_VERBOSE=1 git push -f production production:master
+          GIT_TRACE=1 GIT_CURL_VERBOSE=1 git push -f production_repo production:master
