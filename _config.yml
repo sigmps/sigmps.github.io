@@ -2,7 +2,7 @@ title: 情報処理学会 数理モデル化と問題解決(MPS)研究会
 short_title: MPS研究会
 description: "IPSJ SIG-MPS: Mathematical Modeling and Problem Solving"
 show_downloads: true
-google_analytics:
+google_analytics: G-0HFQYJNEQ9
 theme: jekyll-theme-cayman
 collections:
   mps_docs:
