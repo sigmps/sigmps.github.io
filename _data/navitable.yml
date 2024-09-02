@@ -14,6 +14,10 @@
   label: "論文誌 数理モデル科と応用(TOM)"
   url: "/tom"
 
+- tag: committee
+  label: "MPS運営/TOM編集委員会"
+  url: "/committee_members"
+
 - tag: contact
   label: "お問い合わせ"
   url: "/contact"

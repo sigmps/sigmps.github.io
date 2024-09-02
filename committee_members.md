@@ -12,7 +12,7 @@ tagline: IPSJ SIG MPS/TOM committee members
 <ul>
 {% for member in site.data.mps_members %}
   <li>
-    {{member.role}}: {{ member.name }} ({{ member.affiliation }})
+    {{member.role}}: &nbsp; {{ member.name }} ({{ member.affiliation }})
   </li>
 {% endfor %}
 </ul>
@@ -22,7 +22,7 @@ tagline: IPSJ SIG MPS/TOM committee members
 <ul>
 {% for member in site.data.tom_members %}
   <li>
-    {{ member.role }} {{ member.name }} ({{ member.affiliation }}) {{member.role}}
+    {{ member.role }}: &nbsp; {{ member.name }} ({{ member.affiliation }})
   </li>
 {% endfor %}
 </ul>
