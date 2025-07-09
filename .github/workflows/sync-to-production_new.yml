@@ -1,0 +1,38 @@
+name: Deploy to another repository
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  sync-to-production-repo:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. トリガーとなったリポジトリ（ソース）のコードをチェックアウト
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+        with:
+          # サブモジュールなども含め、全てをチェックアウトする場合は true
+          fetch-depth: 0 
+
+      # 2. 別のリポジトリにプッシュするアクションを実行
+      - name: Push to destination repository
+        uses: cpina/github-action-push-to-another-repo@v1.5
+        with:
+          # 秘密キー指定
+          ssh_private_key: ${{ secrets.DEPLOY_KEY_NEW }}
+          
+          # プッシュ元のディレクトリ（. はカレントディレクトリ全体）
+          source-directory: '.'
+          
+          # プッシュ先のリポジトリとブランチ
+          destination-repo: 'sigmps/sigmps.github.io'
+          destination-branch: 'master' # プッシュ先のブランチ名
+          
+          # force push を実行
+          force: true
+          
+          # コミット時のユーザー情報
+          user-email: 'sigmps-admin@ipsj.or.jp'
+          user-name: 'SIGMPS Admin'
