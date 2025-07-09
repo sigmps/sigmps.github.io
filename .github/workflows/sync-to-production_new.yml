@@ -9,30 +9,20 @@ jobs:
   sync-to-production-repo:
     runs-on: ubuntu-latest
     steps:
-      # 1. トリガーとなったリポジトリ（ソース）のコードをチェックアウト
+      # 1. ソースリポジトリをチェックアウト
       - name: Checkout source repository
         uses: actions/checkout@v4
-        with:
-          # サブモジュールなども含め、全てをチェックアウトする場合は true
-          fetch-depth: 0 
 
-      # 2. 別のリポジトリにプッシュするアクションを実行
+      # 2. 別のリポジトリにプッシュ
       - name: Push to destination repository
-        uses: cpina/github-action-push-to-another-repo@v1.5
+        uses: ad-m/github-push-action@master
         with:
-          # 秘密キー指定
-          ssh_private_key: ${{ secrets.DEPLOY_KEY_NEW }}
-          
-          # プッシュ元のディレクトリ（. はカレントディレクトリ全体）
-          source-directory: '.'
-          
+          # SSHキーを登録
+          ssh: true
           # プッシュ先のリポジトリとブランチ
-          destination-repo: 'sigmps/sigmps.github.io'
-          destination-branch: 'master' # プッシュ先のブランチ名
-          
+          repository: sigmps/sigmps.github.io
+          branch: master # プッシュ先のブランチ
           # force push を実行
           force: true
-          
-          # コミット時のユーザー情報
-          user-email: 'sigmps-admin@ipsj.or.jp'
-          user-name: 'SIGMPS Admin'
+          # プッシュ元のディレクトリ
+          directory: '.'
