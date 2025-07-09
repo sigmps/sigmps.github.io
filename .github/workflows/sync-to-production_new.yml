@@ -19,6 +19,7 @@ jobs:
         with:
           # SSHキーを登録
           ssh: true
+          github_token: ${{ secrets.DEPLOY_NEW_KEY }}
           # プッシュ先のリポジトリとブランチ
           repository: sigmps/sigmps.github.io
           branch: master # プッシュ先のブランチ
