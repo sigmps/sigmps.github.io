@@ -9,7 +9,7 @@ jobs:
     tweet:
         runs-on: ubuntu-latest
         # Secretsがないリポジトリ（devなど）では実行しない
-        if: "${{ secrets.TWITTER_CONSUMER_KEY != '' }}"
+        if: "${{ secrets.X_CONSUMER_KEY != '' }}"
 
         steps:
             - name: Checkout code
