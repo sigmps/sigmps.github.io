@@ -8,8 +8,8 @@ on:
 jobs:
     tweet:
         runs-on: ubuntu-latest
-        # Secretsがないリポジトリ（devなど）では実行しない
-        if: "${{ secrets.TWITTER_CONSUMER_KEY != '' }}"
+        # パブリックでのみ実行
+        if: github.repository == 'sigmps/sigmps.github.io'
 
         steps:
             - name: Checkout code
