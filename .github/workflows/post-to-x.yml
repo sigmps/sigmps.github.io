@@ -1,0 +1,51 @@
+name: Post to X
+
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    tweet:
+        runs-on: ubuntu-latest
+        # Secretsがないリポジトリ（devなど）では実行しない
+        if: "${{ secrets.TWITTER_CONSUMER_KEY != '' }}"
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: "3.x"
+
+            - name: Install tweepy
+              run: pip install tweepy
+
+            - name: Post to X
+              env:
+                  CONSUMER_KEY: ${{ secrets.X_CONSUMER_KEY }}
+                  CONSUMER_SECRET: ${{ secrets.X_CONSUMER_SECRET }}
+                  ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+                  ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+                  MESSAGE: "サイトを更新しました！\n${{ github.event.head_commit.message }}\nhttps://sigmps.github.io"
+              run: |
+                  python - <<EOF
+                  import os
+                  import tweepy
+
+                  client = tweepy.Client(
+                      consumer_key=os.environ['CONSUMER_KEY'],
+                      consumer_secret=os.environ['CONSUMER_SECRET'],
+                      access_token=os.environ['ACCESS_TOKEN'],
+                      access_token_secret=os.environ['ACCESS_TOKEN_SECRET']
+                  )
+
+                  try:
+                      client.create_tweet(text=os.environ['MESSAGE'])
+                      print("Successfully posted to X")
+                  except Exception as e:
+                      print(f"Error: {e}")
+                      exit(1)
+                  EOF
