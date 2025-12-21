@@ -14,6 +14,9 @@ collections:
   tom_docs:
     output: true
 timezone: Asia/Tokyo
+# X のアカウント取得したので
+x.username: MPS_IPSJ_PR
+
 plugins:
   - jekyll-last-modified-at
 

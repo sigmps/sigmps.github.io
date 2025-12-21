@@ -2,6 +2,7 @@
 layout: home
 title: 数理モデル化と問題解決(MPS)研究会
 ref: index
+date: 2026-12-21
 permalink: /index
 ---
 ## 情報処理学会 (IPSJ) 数理モデル化と問題解決研究会へようこそ
@@ -43,9 +44,8 @@ permalink: /index
   {% endfor %}
 </ul>
 
+---
+
 ## 旧Webページへのアクセス
 
 旧 Web ページへのアクセスは [こちら](http://daemon.inf.uec.ac.jp/MPSPortal/) へ
-
----
-{{ page.last_modified_at }}
