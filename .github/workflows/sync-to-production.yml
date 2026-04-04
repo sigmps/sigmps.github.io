@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout dev Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           ref: production
           # Gemini 曰く全ての履歴が必要なので下記がいるとのこと
