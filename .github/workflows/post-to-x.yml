@@ -13,10 +13,10 @@ jobs:
 
         steps:
             - name: Checkout code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
 
             - name: Set up Python
-              uses: actions/setup-python@v4
+              uses: actions/setup-python@v6
               with:
                   python-version: "3.x"
 
@@ -29,7 +29,10 @@ jobs:
                   CONSUMER_SECRET: ${{ secrets.X_CONSUMER_SECRET }}
                   ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
                   ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
-                  MESSAGE: "サイトを更新しました！\n${{ github.event.head_commit.message }}\nhttps://sigmps.github.io"
+                  MESSAGE: |
+                      サイトを更新しました！
+                      ${{ github.event.head_commit.message }}
+                      https://sigmps.github.io
               run: |
                   python - <<EOF
                   import os
